@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(-50px); 
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+  
+.ProductsPage, .CartPage {
+    animation: slideIn 1.8s ease-in-out forwards;
+}
+  
+  

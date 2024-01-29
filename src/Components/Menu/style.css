@@ -1,0 +1,54 @@
+.Menu {
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  width: 100%;
+}
+
+.Menu-nav {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  cursor: pointer;  
+  padding: 10px;
+  box-shadow: 0 3px 18px rgb(226, 223, 223);
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.Menu-nav:hover{
+  box-shadow: 0 3px 16px rgb(125, 170, 196);
+}
+
+.product{
+  text-decoration: none;
+}
+
+.product h1 {
+  font-size: 40px; 
+  padding-left: 30px; 
+  color: white;
+}
+
+.cart .fa-basket-shopping {
+  font-size: 30px; 
+  padding-right: 30px; 
+}
+
+.cart{
+  color: #fff;
+}
+
+.index{
+  margin-left: 22px;
+  color: rgb(210, 51, 51);
+  font-size: 18px;
+  font-weight: 600;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+

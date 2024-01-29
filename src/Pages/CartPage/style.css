@@ -1,0 +1,93 @@
+.CartPage{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgba(107, 151, 177, 0.339);
+    box-shadow: 0 3px 18px rgb(45, 73, 90);
+    cursor: pointer;
+}
+
+
+.total{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 30px;
+    text-align: right;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px gray;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.Productt{
+    width: 520px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 19px black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+
+.info{
+    padding: 30px;
+}
+
+
+.plus-minus{
+    width: 110px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.plus-minus span{
+    font-size: 25px;
+}
+
+.fa-minus{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(224, 103, 103);
+    border-radius: 10px;
+}
+
+.fa-plus{
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(42, 94, 131);
+    border-radius: 10px;
+}
+
+.fa-trash{
+    margin-top: 20px;
+    margin-left: 43px;
+    font-size: 30px;
+    color: rgb(155, 46, 46);
+    border-radius: 10px;
+}
